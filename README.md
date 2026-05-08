@@ -2,8 +2,6 @@
 
 A collection of writeups for the [THCon 2026](https://ctf.thcon.party) CTF. Each writeup follows a uniform structure: TL;DR up top, numbered sections, peer-to-peer technical tone, and a Methodology paragraph at the end.
 
-## Tally
-
 | Solved | Investigated | Missing | Total |
 |---|---|---|---|
 | 35 ✅ | 5 ⚠️ | 13 ❌ | 53 |
@@ -124,14 +122,3 @@ These are flagged ✅ above but don't yet have a markdown file in this repo:
 - Min Max (part 2/2) (Reverse)
 - Neo P4t4t0r (Reverse)
 - Read da rulz, Join the discord, So Challs (Getting Started)
-
-## Style
-
-Each writeup follows roughly the same skeleton:
-
-1. **Title + flag block** — name, category, and the flag (or `unsolved`).
-2. **TL;DR** — bullet-point executive summary of the path.
-3. **Numbered sections** — recon, vulnerability, primitive, exploit, validation. Sub-sections use decimal numbering.
-4. **Methodology** — what generalizes from this challenge to others. Not a rehash of the steps; a "what would I do next time" paragraph.
-
-Code uses fenced blocks with language tags. Tables map structured data (packet layouts, register offsets, key constants). ASCII art for byte/field diagrams when useful.
