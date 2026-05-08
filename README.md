@@ -4,7 +4,7 @@ A collection of writeups for the [THCon 2026](https://ctf.thcon.party) CTF. Each
 
 ## Tally
 
-| Category | Solved | Investigated | Missing | Total |
+| Category | OK | En cours | Missing | Total |
 |---|---|---|---|---|
 | Getting Started | 3 | 0 | 0 | 3 |
 | Cryptography | 6 | 1 | 0 | 7 |
