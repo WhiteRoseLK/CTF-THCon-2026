@@ -4,20 +4,9 @@ A collection of writeups for the [THCon 2026](https://ctf.thcon.party) CTF. Each
 
 ## Tally
 
-| Category | OK | En cours | Missing | Total |
-|---|---|---|---|---|
-| Getting Started | 3 | 0 | 0 | 3 |
-| Cryptography | 6 | 1 | 0 | 7 |
-| Forensic | 5 | 0 | 0 | 5 |
-| Misc | 1 | 0 | 0 | 1 |
-| OSINT | 8 | 1 | 1 | 10 |
-| pwn | 1 | 0 | 10 | 11 |
-| Reverse | 4 | 0 | 1 | 5 |
-| Steganography | 2 | 1 | 1 | 4 |
-| Web | 5 | 2 | 0 | 7 |
-| **Total** | **35** | **5** | **13** | **53** |
-
-The list of platform challenges may not be exhaustive — only the ones the user observed are tracked here.
+| Solved | Investigated | Missing | Total |
+|---|---|---|---|
+| 35 ✅ | 5 ⚠️ | 13 ❌ | 53 |
 
 ## Legend
 
@@ -40,44 +29,44 @@ The list of platform challenges may not be exhaustive — only the ones the user
 
 | Challenge | Pts | Status | IA | Writeup |
 |---|---|---|---|---|
-| Break The Chain | 50 | ✅ | ✅ | [`Cryptography/Break_The_Chain.md`](Cryptography/Break_The_Chain.md) |
-| Exponope | 50 | ✅ | ✅ | [`Cryptography/Exponope.md`](Cryptography/Exponope.md) |
-| Forged Goods | 50 | ✅ | ✅ | [`Cryptography/Forged_Goods.md`](Cryptography/Forged_Goods.md) |
-| Min Max (part 1/2) | 50 | ✅ | ✅ | [`Cryptography/Min_Max.md`](Cryptography/Min_Max.md) |
-| P4t4t0rz at the library | 50 | ✅ | ✅ | [`Cryptography/P4t4t0rz_at_the_library.md`](Cryptography/P4t4t0rz_at_the_library.md) |
-| Rhaaah SH-T again | 470 | ⚠️ | ✅ | [`Cryptography/Rhaaah_SH-T.md`](Cryptography/Rhaaah_SH-T.md) — math correct, judge rejected |
-| Panic In the Northern Quadrant (part 3/3) | 369 | ✅ | ✅ | [`Web/Panic_in_the_Northern_Quadrant_3.md`](Web/Panic_in_the_Northern_Quadrant_3.md) — file under Web/ |
+| Break The Chain | 50 | ✅ | ✅ | [Break_The_Chain](Cryptography/Break_The_Chain.md) |
+| Exponope | 50 | ✅ | ✅ | [Exponope](Cryptography/Exponope.md) |
+| Forged Goods | 50 | ✅ | ✅ | [Forged_Goods](Cryptography/Forged_Goods.md) |
+| Min Max (part 1/2) | 50 | ✅ | ✅ | [Min_Max](Cryptography/Min_Max.md) |
+| P4t4t0rz at the library | 50 | ✅ | ✅ | [P4t4t0rz_at_the_library](Cryptography/P4t4t0rz_at_the_library.md) |
+| Rhaaah SH-T again | 470 | ⚠️ | ✅ | [Rhaaah_SH-T](Cryptography/Rhaaah_SH-T.md) — math correct, judge rejected |
+| Panic In the Northern Quadrant (part 3/3) | 369 | ✅ | ✅ | [Panic_in_the_Northern_Quadrant_3](Web/Panic_in_the_Northern_Quadrant_3.md) — file under Web/ |
 
 ### Forensic
 
 | Challenge | Pts | Status | IA | Writeup |
 |---|---|---|---|---|
 | BEPOlice Department | 68 | ✅ | — | — |
-| Breach at SST - 1 | 50 | ✅ | ✅ | [`Forensic/Breach_at_SST_1.md`](Forensic/Breach_at_SST_1.md) |
-| Breach at SST - 2 | 50 | ✅ | ✅ | [`Forensic/Breach_at_SST_2.md`](Forensic/Breach_at_SST_2.md) |
-| Breach at SST - 3 | 50 | ✅ | ✅ | [`Forensic/Breach_at_SST_3.md`](Forensic/Breach_at_SST_3.md) |
-| Don't forget to lock | 50 | ✅ | ✅ | [`Forensic/Dont_forget_to_lock.md`](Forensic/Dont_forget_to_lock.md) |
+| Breach at SST - 1 | 50 | ✅ | ✅ | [Breach_at_SST_1](Forensic/Breach_at_SST_1.md) |
+| Breach at SST - 2 | 50 | ✅ | ✅ | [Breach_at_SST_2](Forensic/Breach_at_SST_2.md) |
+| Breach at SST - 3 | 50 | ✅ | ✅ | [Breach_at_SST_3](Forensic/Breach_at_SST_3.md) |
+| Don't forget to lock | 50 | ✅ | ✅ | [Dont_forget_to_lock](Forensic/Dont_forget_to_lock.md) |
 
 ### Misc
 
 | Challenge | Pts | Status | IA | Writeup |
 |---|---|---|---|---|
-| Welcome to the SoC | 50 | ✅ | ✅ | [`Misc/Welcome_to_the_SoC.md`](Misc/Welcome_to_the_SoC.md) |
+| Welcome to the SoC | 50 | ✅ | ✅ | [Welcome_to_the_SoC](Misc/Welcome_to_the_SoC.md) |
 
 ### OSINT
 
 | Challenge | Pts | Status | IA | Writeup |
 |---|---|---|---|---|
 | Breaking Out of Prison | 496 | ❌ | — | — |
-| Gunnar's Vacation Bis - Picture 1 | 50 | ✅ | ✅ | [`OSINT/Gunnars_Vacation_Bis_Picture_1.md`](OSINT/Gunnars_Vacation_Bis_Picture_1.md) |
-| Gunnar's Vacation Bis - Picture 2 | 50 | ✅ | ✅ | [`OSINT/Gunnars_Vacation_Bis_Picture_2.md`](OSINT/Gunnars_Vacation_Bis_Picture_2.md) |
-| Gunnar's Vacation Bis - Picture 3 | 50 | ✅ | ✅ | [`OSINT/Gunnars_Vacation_Bis_Picture_3.md`](OSINT/Gunnars_Vacation_Bis_Picture_3.md) |
-| Gunnar's Vacation Bis - Picture 4 | 50 | ✅ | ✅ | [`OSINT/Gunnars_Vacation_Bis_Picture_4.md`](OSINT/Gunnars_Vacation_Bis_Picture_4.md) |
-| Gunnar's Vacation Bis - Picture 5 | 50 | ✅ | ✅ | [`OSINT/Gunnars_Vacation_Bis_Picture_5.md`](OSINT/Gunnars_Vacation_Bis_Picture_5.md) |
-| Gunnar's Vacation Bis - Picture 6 | 103 | ✅ | ✅ | [`OSINT/Gunnars_Vacation_Bis_Picture_6.md`](OSINT/Gunnars_Vacation_Bis_Picture_6.md) |
-| Gunnar's Vacation Bis - Picture 7 | 50 | ✅ | ✅ | [`OSINT/Gunnars_Vacation_Bis_Picture_7.md`](OSINT/Gunnars_Vacation_Bis_Picture_7.md) |
-| Gunnar's Vacation Bis - Picture 8 | 136 | ⚠️ | ✅ | [`OSINT/Gunnars_Vacation_Bis_Picture_8.md`](OSINT/Gunnars_Vacation_Bis_Picture_8.md) |
-| No Cap Just Root (part 2/8) | 50 | ✅ | ✅ | [`OSINT/No_Cap_Just_Root_2.md`](OSINT/No_Cap_Just_Root_2.md) |
+| Gunnar's Vacation Bis - Picture 1 | 50 | ✅ | ✅ | [Gunnars_Vacation_Bis_Picture_1](OSINT/Gunnars_Vacation_Bis_Picture_1.md) |
+| Gunnar's Vacation Bis - Picture 2 | 50 | ✅ | ✅ | [Gunnars_Vacation_Bis_Picture_2](OSINT/Gunnars_Vacation_Bis_Picture_2.md) |
+| Gunnar's Vacation Bis - Picture 3 | 50 | ✅ | ✅ | [Gunnars_Vacation_Bis_Picture_3](OSINT/Gunnars_Vacation_Bis_Picture_3.md) |
+| Gunnar's Vacation Bis - Picture 4 | 50 | ✅ | ✅ | [Gunnars_Vacation_Bis_Picture_4](OSINT/Gunnars_Vacation_Bis_Picture_4.md) |
+| Gunnar's Vacation Bis - Picture 5 | 50 | ✅ | ✅ | [Gunnars_Vacation_Bis_Picture_5](OSINT/Gunnars_Vacation_Bis_Picture_5.md) |
+| Gunnar's Vacation Bis - Picture 6 | 103 | ✅ | ✅ | [Gunnars_Vacation_Bis_Picture_6](OSINT/Gunnars_Vacation_Bis_Picture_6.md) |
+| Gunnar's Vacation Bis - Picture 7 | 50 | ✅ | ✅ | [Gunnars_Vacation_Bis_Picture_7](OSINT/Gunnars_Vacation_Bis_Picture_7.md) |
+| Gunnar's Vacation Bis - Picture 8 | 136 | ⚠️ | ✅ | [Gunnars_Vacation_Bis_Picture_8](OSINT/Gunnars_Vacation_Bis_Picture_8.md) |
+| No Cap Just Root (part 2/8) | 50 | ✅ | ✅ | [No_Cap_Just_Root_2](OSINT/No_Cap_Just_Root_2.md) |
 
 ### pwn
 
@@ -87,7 +76,7 @@ The list of platform challenges may not be exhaustive — only the ones the user
 | Climb Me (part 2/4) | 482 | ❌ | — | — |
 | Climb Me (part 3/4) | 479 | ❌ | — | — |
 | Climb Me (part 4/4) | 489 | ❌ | — | — |
-| No Cap Just Root (part 1/8) | 50 | ✅ | ✅ | [`Pwn/No_Cap_Just_Root_1.md`](Pwn/No_Cap_Just_Root_1.md) |
+| No Cap Just Root (part 1/8) | 50 | ✅ | ✅ | [No_Cap_Just_Root_1](Pwn/No_Cap_Just_Root_1.md) |
 | No Cap Just Root (part 3/8) | 379 | ❌ | — | — |
 | No Cap Just Root (part 4/8) | 496 | ❌ | — | — |
 | No Cap Just Root (part 5/8) | 494 | ❌ | — | — |
@@ -102,29 +91,29 @@ The list of platform challenges may not be exhaustive — only the ones the user
 | M4terM4xima's HINT (part 1/2) | 50 | ✅ | — | — |
 | Min Max (part 2/2) | 50 | ✅ | — | — |
 | Neo P4t4t0r | 50 | ✅ | — | — |
-| Silent Signer | 50 | ✅ | ✅ | [`Reverse/Silent_Signer.md`](Reverse/Silent_Signer.md) |
+| Silent Signer | 50 | ✅ | ✅ | [Silent_Signer](Reverse/Silent_Signer.md) |
 | XSS Kernel | 470 | ❌ | — | — |
 
 ### Steganography
 
 | Challenge | Pts | Status | IA | Writeup |
 |---|---|---|---|---|
-| Getting to the Bottom of Things | 120 | ✅ | ✅ | [`Steganography/Getting_to_the_Bottom_of_Things.md`](Steganography/Getting_to_the_Bottom_of_Things.md) |
-| M4terM4xima's HINT (part 2/2) | 103 | ⚠️ | ✅ | [`Steganography/M4terM4xima_HINT_part2.md`](Steganography/M4terM4xima_HINT_part2.md) — flag candidate `THC{lui zero, ox123}` not validated yet |
-| PNG is a lie (part 1/2) | 50 | ✅ | ✅ | [`Steganography/PNG_is_a_lie.md`](Steganography/PNG_is_a_lie.md) |
+| Getting to the Bottom of Things | 120 | ✅ | ✅ | [Getting_to_the_Bottom_of_Things](Steganography/Getting_to_the_Bottom_of_Things.md) |
+| M4terM4xima's HINT (part 2/2) | 103 | ⚠️ | ✅ | [M4terM4xima_HINT_part2](Steganography/M4terM4xima_HINT_part2.md) — flag candidate `THC{lui zero, ox123}` not validated yet |
+| PNG is a lie (part 1/2) | 50 | ✅ | ✅ | [PNG_is_a_lie](Steganography/PNG_is_a_lie.md) |
 | PNG is a lie (part 2/2) | 50 | ❌ | — | — |
 
 ### Web
 
 | Challenge | Pts | Status | IA | Writeup |
 |---|---|---|---|---|
-| Incredibly Protected Notifications | 50 | ⚠️ | ✅ | [`Web/Incredibly_Protected_Notifications.md`](Web/Incredibly_Protected_Notifications.md) |
-| Panic In the Northern Quadrant (part 1/3) | 50 | ✅ | ✅ | [`Web/Panic_in_the_Northern_Quadrant_1.md`](Web/Panic_in_the_Northern_Quadrant_1.md) |
-| Panic In the Northern Quadrant (part 2/3) | 50 | ✅ | ✅ | [`Web/Panic_in_the_Northern_Quadrant_2.md`](Web/Panic_in_the_Northern_Quadrant_2.md) |
-| THCity: Authentication Collapse (part 1/2) | 50 | ✅ | ✅ | [`Web/THCity_Authentication_Collapse_1.md`](Web/THCity_Authentication_Collapse_1.md) |
-| THCity: Authentication Collapse (part 2/2) | 338 | ⚠️ | ✅ | [`Web/THCity_Authentication_Collapse_2.md`](Web/THCity_Authentication_Collapse_2.md) |
-| XSS_iN_tHe_Web (part 1/2) | 50 | ✅ | ✅ | [`Web/XSS_iN_tHe_Web_1.md`](Web/XSS_iN_tHe_Web_1.md) |
-| XSS_iN_tHe_Web (part 2/2) | 50 | ✅ | ✅ | [`Web/XSS_iN_tHe_Web_2.md`](Web/XSS_iN_tHe_Web_2.md) |
+| Incredibly Protected Notifications | 50 | ⚠️ | ✅ | [Incredibly_Protected_Notifications](Web/Incredibly_Protected_Notifications.md) |
+| Panic In the Northern Quadrant (part 1/3) | 50 | ✅ | ✅ | [Panic_in_the_Northern_Quadrant_1](Web/Panic_in_the_Northern_Quadrant_1.md) |
+| Panic In the Northern Quadrant (part 2/3) | 50 | ✅ | ✅ | [Panic_in_the_Northern_Quadrant_2](Web/Panic_in_the_Northern_Quadrant_2.md) |
+| THCity: Authentication Collapse (part 1/2) | 50 | ✅ | ✅ | [THCity_Authentication_Collapse_1](Web/THCity_Authentication_Collapse_1.md) |
+| THCity: Authentication Collapse (part 2/2) | 338 | ⚠️ | ✅ | [THCity_Authentication_Collapse_2](Web/THCity_Authentication_Collapse_2.md) |
+| XSS_iN_tHe_Web (part 1/2) | 50 | ✅ | ✅ | [XSS_iN_tHe_Web_1](Web/XSS_iN_tHe_Web_1.md) |
+| XSS_iN_tHe_Web (part 2/2) | 50 | ✅ | ✅ | [XSS_iN_tHe_Web_2](Web/XSS_iN_tHe_Web_2.md) |
 
 ### Solved without a published writeup yet
 
