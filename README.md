@@ -4,9 +4,9 @@ A collection of writeups for the [THCon 2026](https://ctf.thcon.party) CTF. Each
 
 ## Status
 
-- ✅ Solved (flag obtained)
-- ⚠️ Writeup published but flag not validated (investigation log)
-- ❌ Not attempted (no writeup)
+- ✅ Solved (flag validated by the platform)
+- ⚠️ Writeup published but flag not validated by the platform
+- ❌ Not solved (no writeup)
 
 > Categories below follow the THCon 2026 platform's own categorisation. A few writeups physically live under a different folder (noted inline) — the platform's category is the authoritative one.
 
@@ -16,9 +16,9 @@ A collection of writeups for the [THCon 2026](https://ctf.thcon.party) CTF. Each
 
 | Challenge | Pts | Status | Writeup |
 |---|---|---|---|
-| Read da rulz | 50 | ❌ | — |
-| Join the discord | 50 | ❌ | — |
-| So Challs | 50 | ❌ | — |
+| Read da rulz | 50 | ✅ | — |
+| Join the discord | 50 | ✅ | — |
+| So Challs | 50 | ✅ | — |
 
 ### Cryptography
 
@@ -36,6 +36,7 @@ A collection of writeups for the [THCon 2026](https://ctf.thcon.party) CTF. Each
 
 | Challenge | Pts | Status | Writeup |
 |---|---|---|---|
+| BEPOlice Department | 68 | ✅ | — |
 | Breach at SST - 1 | 50 | ✅ | [`Forensic/Breach_at_SST_1.md`](Forensic/Breach_at_SST_1.md) |
 | Breach at SST - 2 | 50 | ✅ | [`Forensic/Breach_at_SST_2.md`](Forensic/Breach_at_SST_2.md) |
 | Breach at SST - 3 | 50 | ✅ | [`Forensic/Breach_at_SST_3.md`](Forensic/Breach_at_SST_3.md) |
@@ -52,13 +53,13 @@ A collection of writeups for the [THCon 2026](https://ctf.thcon.party) CTF. Each
 | Challenge | Pts | Status | Writeup |
 |---|---|---|---|
 | Breaking Out of Prison | 496 | ❌ | — |
-| Gunnar's Vacation Bis - Picture 1 | 50 | ⚠️ | [`OSINT/Gunnars_Vacation_Bis_Picture_1.md`](OSINT/Gunnars_Vacation_Bis_Picture_1.md) |
-| Gunnar's Vacation Bis - Picture 2 | 50 | ⚠️ | [`OSINT/Gunnars_Vacation_Bis_Picture_2.md`](OSINT/Gunnars_Vacation_Bis_Picture_2.md) |
+| Gunnar's Vacation Bis - Picture 1 | 50 | ✅ | [`OSINT/Gunnars_Vacation_Bis_Picture_1.md`](OSINT/Gunnars_Vacation_Bis_Picture_1.md) |
+| Gunnar's Vacation Bis - Picture 2 | 50 | ✅ | [`OSINT/Gunnars_Vacation_Bis_Picture_2.md`](OSINT/Gunnars_Vacation_Bis_Picture_2.md) |
 | Gunnar's Vacation Bis - Picture 3 | 50 | ✅ | [`OSINT/Gunnars_Vacation_Bis_Picture_3.md`](OSINT/Gunnars_Vacation_Bis_Picture_3.md) |
 | Gunnar's Vacation Bis - Picture 4 | 50 | ✅ | [`OSINT/Gunnars_Vacation_Bis_Picture_4.md`](OSINT/Gunnars_Vacation_Bis_Picture_4.md) |
-| Gunnar's Vacation Bis - Picture 5 | 50 | ⚠️ | [`OSINT/Gunnars_Vacation_Bis_Picture_5.md`](OSINT/Gunnars_Vacation_Bis_Picture_5.md) |
-| Gunnar's Vacation Bis - Picture 6 | 103 | ⚠️ | [`OSINT/Gunnars_Vacation_Bis_Picture_6.md`](OSINT/Gunnars_Vacation_Bis_Picture_6.md) |
-| Gunnar's Vacation Bis - Picture 7 | 50 | ⚠️ | [`OSINT/Gunnars_Vacation_Bis_Picture_7.md`](OSINT/Gunnars_Vacation_Bis_Picture_7.md) |
+| Gunnar's Vacation Bis - Picture 5 | 50 | ✅ | [`OSINT/Gunnars_Vacation_Bis_Picture_5.md`](OSINT/Gunnars_Vacation_Bis_Picture_5.md) |
+| Gunnar's Vacation Bis - Picture 6 | 103 | ✅ | [`OSINT/Gunnars_Vacation_Bis_Picture_6.md`](OSINT/Gunnars_Vacation_Bis_Picture_6.md) |
+| Gunnar's Vacation Bis - Picture 7 | 50 | ✅ | [`OSINT/Gunnars_Vacation_Bis_Picture_7.md`](OSINT/Gunnars_Vacation_Bis_Picture_7.md) |
 | Gunnar's Vacation Bis - Picture 8 | 136 | ⚠️ | [`OSINT/Gunnars_Vacation_Bis_Picture_8.md`](OSINT/Gunnars_Vacation_Bis_Picture_8.md) |
 | No Cap Just Root (part 2/8) | 50 | ✅ | [`OSINT/No_Cap_Just_Root_2.md`](OSINT/No_Cap_Just_Root_2.md) |
 
@@ -82,10 +83,9 @@ A collection of writeups for the [THCon 2026](https://ctf.thcon.party) CTF. Each
 
 | Challenge | Pts | Status | Writeup |
 |---|---|---|---|
-| M4terM4xima's HINT (part 1/2) | 50 | ❌ | — |
-| M4terM4xima's HINT (part 2/2) | 103 | ✅ | [`Steganography/M4terM4xima_HINT_part2.md`](Steganography/M4terM4xima_HINT_part2.md) — file under Steganography/ |
-| Min Max (part 2/2) | 50 | ❌ | — |
-| Neo P4t4t0r | 50 | ❌ | — |
+| M4terM4xima's HINT (part 1/2) | 50 | ✅ | — |
+| Min Max (part 2/2) | 50 | ✅ | — |
+| Neo P4t4t0r | 50 | ✅ | — |
 | Silent Signer | 50 | ✅ | [`Reverse/Silent_Signer.md`](Reverse/Silent_Signer.md) |
 | XSS Kernel | 470 | ❌ | — |
 
@@ -94,6 +94,7 @@ A collection of writeups for the [THCon 2026](https://ctf.thcon.party) CTF. Each
 | Challenge | Pts | Status | Writeup |
 |---|---|---|---|
 | Getting to the Bottom of Things | 120 | ✅ | [`Steganography/Getting_to_the_Bottom_of_Things.md`](Steganography/Getting_to_the_Bottom_of_Things.md) |
+| M4terM4xima's HINT (part 2/2) | 103 | ⚠️ | [`Steganography/M4terM4xima_HINT_part2.md`](Steganography/M4terM4xima_HINT_part2.md) — flag candidate `THC{lui zero, ox123}` not validated yet |
 | PNG is a lie (part 1/2) | 50 | ✅ | [`Steganography/PNG_is_a_lie.md`](Steganography/PNG_is_a_lie.md) |
 | PNG is a lie (part 2/2) | 50 | ❌ | — |
 
@@ -111,20 +112,30 @@ A collection of writeups for the [THCon 2026](https://ctf.thcon.party) CTF. Each
 
 ## Tally
 
-| Category | Solved | Investigated | Missing |
-|---|---|---|---|
-| Getting Started | 0 | 0 | 3 |
-| Cryptography | 6 | 1 | 0 |
-| Forensic | 4 | 0 | 0 |
-| Misc | 1 | 0 | 0 |
-| OSINT | 3 | 6 | 1 |
-| pwn | 1 | 0 | 10 |
-| Reverse | 2 | 0 | 4 |
-| Steganography | 2 | 0 | 1 |
-| Web | 5 | 2 | 0 |
-| **Total** | **24** | **9** | **19** |
+| Category | Solved | Investigated | Missing | Total |
+|---|---|---|---|---|
+| Getting Started | 3 | 0 | 0 | 3 |
+| Cryptography | 6 | 1 | 0 | 7 |
+| Forensic | 5 | 0 | 0 | 5 |
+| Misc | 1 | 0 | 0 | 1 |
+| OSINT | 8 | 1 | 1 | 10 |
+| pwn | 1 | 0 | 10 | 11 |
+| Reverse | 4 | 0 | 1 | 5 |
+| Steganography | 2 | 1 | 1 | 4 |
+| Web | 5 | 2 | 0 | 7 |
+| **Total** | **35** | **5** | **13** | **53** |
 
 The list of platform challenges may not be exhaustive — only the ones the user observed are tracked here.
+
+### Solved without a published writeup yet
+
+These are flagged ✅ above but don't yet have a markdown file in this repo:
+
+- BEPOlice Department (Forensic)
+- M4terM4xima's HINT (part 1/2) (Reverse)
+- Min Max (part 2/2) (Reverse)
+- Neo P4t4t0r (Reverse)
+- Read da rulz, Join the discord, So Challs (Getting Started)
 
 ## Style
 
